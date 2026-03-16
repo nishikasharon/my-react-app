@@ -1,8 +1,26 @@
-import Button from './Button.jsx'
 
+
+import Student from './Student.jsx'
 function App(){
   return(
-    <Button/>
+    <>
+    <Student name="Sponegbob" 
+    age = {18}
+    isStudent = {true}/>
+
+    <Student name="Patrick" 
+    age = {40}
+    isStudent = {false}/>
+
+    <Student name="Jessica" 
+    age = {50}
+    isStudent = {false}/>
+
+    <Student name="Sandy" 
+    age = {28}
+    isStudent = {true}/>
+
+    </>
   );
 }
 
