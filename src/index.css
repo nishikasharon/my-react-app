@@ -1,10 +1,17 @@
-.student{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+.welcome{
+    font-size: 2.5rem;
+    background-color: greenyellow;
+    color: rgb(66, 15, 166);
     padding: 10px;
-    border: 1px solid purple;
+    border-radius: 5px;;
+    margin: 0;
 }
 
-.student p{
+.login{
+    font-size: 2.5rem;
+    background-color: rgb(248, 56, 8);
+    color: rgb(66, 15, 166);
+    padding: 10px;
+    border-radius: 5px;;
     margin: 0;
 }
